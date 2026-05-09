@@ -259,7 +259,7 @@ extern "C" void kernelMain(void* multiboot_structure, uint32_t magicnumber) {
 
     interrupts.Activate();
 
-    printf("\n\n\n\n\n\n\n\n\n\n\n\n\n");
+    printf("\n myos - A simple x86 OS kernel written in C++ | 用C++编写的简易x86操作系统内核\n\n\n\n\n\n\n\n\n\n\n\n");
     // arp.Resolve(gip_be);
     // ipv4.Send(gip_be, 0x0008, (uint8_t*)"Hello Network", 13);
     arp.BroadcastMACAddress(gip_be);
